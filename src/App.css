@@ -1,0 +1,27 @@
+.btn {
+    margin-top: 2rem;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #8cd3ff;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: #8cd3ff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 300ms;
+    border: gray;
+  }
+  
+  .appcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
