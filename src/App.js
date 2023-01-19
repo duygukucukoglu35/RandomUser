@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   if (loading) {
-    return <h1>Loading...</h1>;
+    return <h1 style={{color:"blue", fontSize: "32px" ,textAlign:"center"}}>Loading...</h1>;
   }
 
   return (
